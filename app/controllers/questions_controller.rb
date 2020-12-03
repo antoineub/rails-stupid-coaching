@@ -13,7 +13,7 @@ class QuestionsController < ApplicationController
   
   def coach(question)
     if question == "I am going to work"
-      "I am going to work"
+      "Great!"
     elsif question.include? "?"
       "Silly question, get dressed and go to work!"
     else
